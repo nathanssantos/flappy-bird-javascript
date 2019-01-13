@@ -18,7 +18,7 @@ No plugins, no libraries. Just Vanilla JS.
 
 ## Usage instructions
 
-[Download the project](https://github.com/nathanssantos/flappy-bird-javascript/archive/master.zip) and open `index.html` on your browser.
+[Download the project](https://github.com/nathanssantos/flappy-bird-js/archive/master.zip) and open `index.html` on your browser.
 
 Press any key on the keyborad to make the bird fly.
 Refresh the page to restart the game (not finished yet).
