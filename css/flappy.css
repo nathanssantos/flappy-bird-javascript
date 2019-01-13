@@ -1,0 +1,78 @@
+*{
+    box-sizing: border-box;
+}
+
+@font-face {
+    font-family: 'Pixel';
+    src: url('../fonts/Pixel.ttf');
+}
+
+[flappy-bird] {
+    position: relative;
+    border: 5px solid dodgerblue;
+    height: 700px;
+    width: 1200px;
+    margin: 15px;
+    background-color: deepskyblue;
+    overflow: hidden;
+}
+
+h1, .content {
+    margin: 0;
+}
+
+.content {
+   display: flex;
+   flex-direction: column;
+   align-items: center;
+   justify-content: center;
+   background-color: #0D262D;
+   color: #fff;
+   height: 100%;
+   font-family: 'Pixel';
+   font-size: 30px;
+}
+
+.bird {
+    position: absolute;
+    width: 60px;
+    left: calc(50% - 30px);
+}
+
+.barrier-pair {
+    position: absolute;
+    top: 0;
+    height: 100%;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+}
+
+.barrier {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.barrier-border {
+    height: 30px;
+    width: 130px;
+    background: linear-gradient(90deg, #639301, #a5e82e);
+    border: 2px solid black;
+}
+
+.barrier-body{
+    height: 150px;
+    width: 110px;
+    background: linear-gradient(90deg, #639301, #a5e82e);
+    border-left: 2px solid black;
+    border-right: 2px solid black;     
+}
+
+.progress {
+    position: absolute;
+    right: 15px;
+    font-family: 'Pixel';
+    font-size: 50px;
+    z-index: 10;
+}
