@@ -15,10 +15,6 @@ function Barrier(reverse = false) {
     this.setHeight = height => body.style.height = `${height}px`
 }
 
-// const b = new Barrier(true)
-// b.setHeight(200)
-// document.querySelector('[flappy-bird').appendChild(b.element)
-
 function BarrierPair(height, gap, x) {
     this.element = newElement('div', 'barrier-pair')
 
@@ -42,9 +38,6 @@ function BarrierPair(height, gap, x) {
     this.randomGap()
     this.setX(x)
 }
-
-// const b = new BarrierPair(700, 200, 400)
-// document.querySelector('[flappy-bird').appendChild(b.element)
 
 function Barriers(height, width, gap, space, notifyPoint) {
     this.pairs = [
@@ -106,22 +99,6 @@ function Progress() {
     }
     this.updatePoints(0)
 }
-
-// const barriers = new Barriers(700, 1200, 200, 400)
-// const bird = new Bird(700)
-// const gameArea = document.querySelector('[flappy-bird]')
-
-// gameArea.appendChild(bird.element)
-// gameArea.appendChild(new Progress().element)
-
-// barriers.pairs.forEach(pair => gameArea.appendChild(pair.element))
-
-// setInterval(() => {
-//     barriers.animate()
-//     bird.animate()
-// }, 20)
-
-
 
 function overlayCheck(elementA, elementB) {
     const a = elementA.getBoundingClientRect()
