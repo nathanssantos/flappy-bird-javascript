@@ -76,6 +76,8 @@ function Bird(gameHeight) {
 
     window.onkeydown = e => flying = true
     window.onkeyup = e => flying = false
+    window.onmousedown = e => flying = true
+    window.onmouseup = e => flying = false 
 
     this.animate = () => {
         const newY = this.getY() + (flying ? 8 : -5)
