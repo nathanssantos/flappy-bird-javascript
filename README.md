@@ -1,6 +1,6 @@
 # Flappy Bird JS
 
-A simple Flappy Bird game developed with HTML, CSS and JavaScript.
+A simple Flappy Bird game developed with HTML, CSS, and Vanilla JS.
 
 
 ![](images/flappy-bird-js-thumbnail.jpg)
