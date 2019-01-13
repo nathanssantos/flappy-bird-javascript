@@ -13,7 +13,7 @@
     height: 700px;
     width: 1200px;
     margin: 15px;
-    background-color: deepskyblue;
+    background: url('../images/background.jpg') center/cover no-repeat;
     overflow: hidden;
 }
 
@@ -35,7 +35,7 @@ h1, .content {
 
 .bird {
     position: absolute;
-    width: 60px;
+    width: 45px;
     left: calc(50% - 30px);
 }
 
@@ -56,15 +56,15 @@ h1, .content {
 
 .barrier-border {
     height: 30px;
-    width: 130px;
-    background: linear-gradient(90deg, #639301, #a5e82e);
+    width: 80px;
+    background: linear-gradient(90deg, rgba(99, 147, 1,.5), rgba(162, 223, 59,.95));
     border: 2px solid black;
 }
 
 .barrier-body{
     height: 150px;
-    width: 110px;
-    background: linear-gradient(90deg, #639301, #a5e82e);
+    width: 70px;
+    background: linear-gradient(90deg, rgba(99, 147, 1,.5), rgba(162, 223, 59,.95));
     border-left: 2px solid black;
     border-right: 2px solid black;     
 }

@@ -138,7 +138,7 @@ function FlappyBird() {
     const width = gameArea.clientWidth
 
     const progress = new Progress()
-    const barriers = new Barriers(height, width, 230, 400,
+    const barriers = new Barriers(height, width, 200, 400,
         () => progress.updatePoints(++points))
     const bird = new Bird(height)
 

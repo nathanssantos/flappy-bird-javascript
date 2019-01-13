@@ -3,7 +3,7 @@
 A simple Flappy Bird game developed with HTML, CSS, and Vanilla JS.
 
 
-![](images/flappy-bird-js-thumbnail.jpg)
+![](images/flappy-bird-demo.gif)
 
 
 Developed using:
