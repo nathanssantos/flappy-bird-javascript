@@ -27,7 +27,7 @@ Refresh the page to restart the game (not finished yet).
 ## To do
 
 * Game menu
-* Game over modal with the player's points and a restart function
+* "Game Over" modal with the player's score and a restart function
 * Difficulty menu with barriers gap and speed selection
 
 
